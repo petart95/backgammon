@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE3FCD521E326DFF0072B19C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD511E326DFF0072B19C /* main.m */; };
+		AE3FCD551E326DFF0072B19C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD541E326DFF0072B19C /* AppDelegate.m */; };
+		AE3FCD581E326DFF0072B19C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD571E326DFF0072B19C /* ViewController.m */; };
+		AE3FCD5B1E326DFF0072B19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FCD591E326DFF0072B19C /* Main.storyboard */; };
+		AE3FCD5D1E326DFF0072B19C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3FCD5C1E326DFF0072B19C /* Assets.xcassets */; };
+		AE3FCD601E326DFF0072B19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FCD5E1E326DFF0072B19C /* LaunchScreen.storyboard */; };
+		AE3FCD6B1E326E000072B19C /* backgamonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD6A1E326E000072B19C /* backgamonTests.m */; };
+		AE3FCD761E326E000072B19C /* backgamonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD751E326E000072B19C /* backgamonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE3FCD671E326E000072B19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE3FCD451E326DFF0072B19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE3FCD4C1E326DFF0072B19C;
+			remoteInfo = backgamon;
+		};
+		AE3FCD721E326E000072B19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE3FCD451E326DFF0072B19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE3FCD4C1E326DFF0072B19C;
+			remoteInfo = backgamon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE3FCD4D1E326DFF0072B19C /* backgamon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backgamon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3FCD511E326DFF0072B19C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE3FCD531E326DFF0072B19C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE3FCD541E326DFF0072B19C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE3FCD561E326DFF0072B19C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE3FCD571E326DFF0072B19C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE3FCD5A1E326DFF0072B19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE3FCD5C1E326DFF0072B19C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE3FCD5F1E326DFF0072B19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE3FCD611E326DFF0072B19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3FCD661E326E000072B19C /* backgamonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backgamonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3FCD6A1E326E000072B19C /* backgamonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = backgamonTests.m; sourceTree = "<group>"; };
+		AE3FCD6C1E326E000072B19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3FCD711E326E000072B19C /* backgamonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backgamonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3FCD751E326E000072B19C /* backgamonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = backgamonUITests.m; sourceTree = "<group>"; };
+		AE3FCD771E326E000072B19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE3FCD4A1E326DFF0072B19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3FCD631E326E000072B19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3FCD6E1E326E000072B19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE3FCD441E326DFF0072B19C = {
+			isa = PBXGroup;
+			children = (
+				AE3FCD4F1E326DFF0072B19C /* backgamon */,
+				AE3FCD691E326E000072B19C /* backgamonTests */,
+				AE3FCD741E326E000072B19C /* backgamonUITests */,
+				AE3FCD4E1E326DFF0072B19C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE3FCD4E1E326DFF0072B19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FCD4D1E326DFF0072B19C /* backgamon.app */,
+				AE3FCD661E326E000072B19C /* backgamonTests.xctest */,
+				AE3FCD711E326E000072B19C /* backgamonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE3FCD4F1E326DFF0072B19C /* backgamon */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FCD531E326DFF0072B19C /* AppDelegate.h */,
+				AE3FCD541E326DFF0072B19C /* AppDelegate.m */,
+				AE3FCD561E326DFF0072B19C /* ViewController.h */,
+				AE3FCD571E326DFF0072B19C /* ViewController.m */,
+				AE3FCD591E326DFF0072B19C /* Main.storyboard */,
+				AE3FCD5C1E326DFF0072B19C /* Assets.xcassets */,
+				AE3FCD5E1E326DFF0072B19C /* LaunchScreen.storyboard */,
+				AE3FCD611E326DFF0072B19C /* Info.plist */,
+				AE3FCD501E326DFF0072B19C /* Supporting Files */,
+			);
+			path = backgamon;
+			sourceTree = "<group>";
+		};
+		AE3FCD501E326DFF0072B19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FCD511E326DFF0072B19C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE3FCD691E326E000072B19C /* backgamonTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FCD6A1E326E000072B19C /* backgamonTests.m */,
+				AE3FCD6C1E326E000072B19C /* Info.plist */,
+			);
+			path = backgamonTests;
+			sourceTree = "<group>";
+		};
+		AE3FCD741E326E000072B19C /* backgamonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FCD751E326E000072B19C /* backgamonUITests.m */,
+				AE3FCD771E326E000072B19C /* Info.plist */,
+			);
+			path = backgamonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE3FCD4C1E326DFF0072B19C /* backgamon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3FCD7A1E326E000072B19C /* Build configuration list for PBXNativeTarget "backgamon" */;
+			buildPhases = (
+				AE3FCD491E326DFF0072B19C /* Sources */,
+				AE3FCD4A1E326DFF0072B19C /* Frameworks */,
+				AE3FCD4B1E326DFF0072B19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = backgamon;
+			productName = backgamon;
+			productReference = AE3FCD4D1E326DFF0072B19C /* backgamon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE3FCD651E326E000072B19C /* backgamonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3FCD7D1E326E000072B19C /* Build configuration list for PBXNativeTarget "backgamonTests" */;
+			buildPhases = (
+				AE3FCD621E326E000072B19C /* Sources */,
+				AE3FCD631E326E000072B19C /* Frameworks */,
+				AE3FCD641E326E000072B19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE3FCD681E326E000072B19C /* PBXTargetDependency */,
+			);
+			name = backgamonTests;
+			productName = backgamonTests;
+			productReference = AE3FCD661E326E000072B19C /* backgamonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE3FCD701E326E000072B19C /* backgamonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE3FCD801E326E000072B19C /* Build configuration list for PBXNativeTarget "backgamonUITests" */;
+			buildPhases = (
+				AE3FCD6D1E326E000072B19C /* Sources */,
+				AE3FCD6E1E326E000072B19C /* Frameworks */,
+				AE3FCD6F1E326E000072B19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE3FCD731E326E000072B19C /* PBXTargetDependency */,
+			);
+			name = backgamonUITests;
+			productName = backgamonUITests;
+			productReference = AE3FCD711E326E000072B19C /* backgamonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE3FCD451E326DFF0072B19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = maxeler;
+				TargetAttributes = {
+					AE3FCD4C1E326DFF0072B19C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J6B9MZ6PP4;
+						ProvisioningStyle = Automatic;
+					};
+					AE3FCD651E326E000072B19C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J6B9MZ6PP4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE3FCD4C1E326DFF0072B19C;
+					};
+					AE3FCD701E326E000072B19C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J6B9MZ6PP4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE3FCD4C1E326DFF0072B19C;
+					};
+				};
+			};
+			buildConfigurationList = AE3FCD481E326DFF0072B19C /* Build configuration list for PBXProject "backgamon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE3FCD441E326DFF0072B19C;
+			productRefGroup = AE3FCD4E1E326DFF0072B19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE3FCD4C1E326DFF0072B19C /* backgamon */,
+				AE3FCD651E326E000072B19C /* backgamonTests */,
+				AE3FCD701E326E000072B19C /* backgamonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE3FCD4B1E326DFF0072B19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3FCD601E326DFF0072B19C /* LaunchScreen.storyboard in Resources */,
+				AE3FCD5D1E326DFF0072B19C /* Assets.xcassets in Resources */,
+				AE3FCD5B1E326DFF0072B19C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3FCD641E326E000072B19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3FCD6F1E326E000072B19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE3FCD491E326DFF0072B19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3FCD581E326DFF0072B19C /* ViewController.m in Sources */,
+				AE3FCD551E326DFF0072B19C /* AppDelegate.m in Sources */,
+				AE3FCD521E326DFF0072B19C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3FCD621E326E000072B19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3FCD6B1E326E000072B19C /* backgamonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3FCD6D1E326E000072B19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE3FCD761E326E000072B19C /* backgamonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE3FCD681E326E000072B19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE3FCD4C1E326DFF0072B19C /* backgamon */;
+			targetProxy = AE3FCD671E326E000072B19C /* PBXContainerItemProxy */;
+		};
+		AE3FCD731E326E000072B19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE3FCD4C1E326DFF0072B19C /* backgamon */;
+			targetProxy = AE3FCD721E326E000072B19C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE3FCD591E326DFF0072B19C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3FCD5A1E326DFF0072B19C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE3FCD5E1E326DFF0072B19C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE3FCD5F1E326DFF0072B19C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE3FCD781E326E000072B19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE3FCD791E326E000072B19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE3FCD7B1E326E000072B19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6B9MZ6PP4;
+				INFOPLIST_FILE = backgamon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptrifunovic.backgamon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE3FCD7C1E326E000072B19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J6B9MZ6PP4;
+				INFOPLIST_FILE = backgamon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptrifunovic.backgamon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE3FCD7E1E326E000072B19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J6B9MZ6PP4;
+				INFOPLIST_FILE = backgamonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptrifunovic.backgamonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backgamon.app/backgamon";
+			};
+			name = Debug;
+		};
+		AE3FCD7F1E326E000072B19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J6B9MZ6PP4;
+				INFOPLIST_FILE = backgamonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptrifunovic.backgamonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/backgamon.app/backgamon";
+			};
+			name = Release;
+		};
+		AE3FCD811E326E000072B19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J6B9MZ6PP4;
+				INFOPLIST_FILE = backgamonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptrifunovic.backgamonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = backgamon;
+			};
+			name = Debug;
+		};
+		AE3FCD821E326E000072B19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J6B9MZ6PP4;
+				INFOPLIST_FILE = backgamonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ptrifunovic.backgamonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = backgamon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE3FCD481E326DFF0072B19C /* Build configuration list for PBXProject "backgamon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3FCD781E326E000072B19C /* Debug */,
+				AE3FCD791E326E000072B19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE3FCD7A1E326E000072B19C /* Build configuration list for PBXNativeTarget "backgamon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3FCD7B1E326E000072B19C /* Debug */,
+				AE3FCD7C1E326E000072B19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE3FCD7D1E326E000072B19C /* Build configuration list for PBXNativeTarget "backgamonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3FCD7E1E326E000072B19C /* Debug */,
+				AE3FCD7F1E326E000072B19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AE3FCD801E326E000072B19C /* Build configuration list for PBXNativeTarget "backgamonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE3FCD811E326E000072B19C /* Debug */,
+				AE3FCD821E326E000072B19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE3FCD451E326DFF0072B19C /* Project object */;
+}
