@@ -6,11 +6,9 @@
 //  Copyright © 2017 maxeler. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "MaxelerAppDelegate.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : MaxelerAppDelegate
 
 
 @end

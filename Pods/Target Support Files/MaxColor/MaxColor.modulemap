@@ -1,0 +1,6 @@
+framework module MaxColor {
+  umbrella header "MaxColor-umbrella.h"
+
+  export *
+  module * { export * }
+}

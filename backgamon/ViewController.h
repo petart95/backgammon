@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property NSInteger gameLength;
+@property NSInteger redBotDif;
+@property NSInteger whiteBotDif;
 
 @end
 

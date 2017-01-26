@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93C6F559814B424B669F2A22 /* Pods_backgamon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008AF0A454F944CF1DF24A4E /* Pods_backgamon.framework */; };
 		AE3FCD521E326DFF0072B19C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD511E326DFF0072B19C /* main.m */; };
 		AE3FCD551E326DFF0072B19C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD541E326DFF0072B19C /* AppDelegate.m */; };
 		AE3FCD581E326DFF0072B19C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD571E326DFF0072B19C /* ViewController.m */; };
@@ -15,6 +16,20 @@
 		AE3FCD601E326DFF0072B19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3FCD5E1E326DFF0072B19C /* LaunchScreen.storyboard */; };
 		AE3FCD6B1E326E000072B19C /* backgamonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD6A1E326E000072B19C /* backgamonTests.m */; };
 		AE3FCD761E326E000072B19C /* backgamonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD751E326E000072B19C /* backgamonUITests.m */; };
+		AE3FCD851E32714A0072B19C /* BackgamonNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD841E32714A0072B19C /* BackgamonNavigationController.m */; };
+		AE3FCD8B1E32874A0072B19C /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD8A1E32874A0072B19C /* TriangleView.m */; };
+		AE3FCD8E1E3287770072B19C /* TraingleSelected.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD8D1E3287770072B19C /* TraingleSelected.m */; };
+		AE3FCD911E32C59A0072B19C /* CircleSelecteed.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD901E32C59A0072B19C /* CircleSelecteed.m */; };
+		AE3FCD941E32C5BB0072B19C /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD931E32C5BB0072B19C /* CircleView.m */; };
+		AE3FCD971E350F510072B19C /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD961E350F510072B19C /* Board.m */; };
+		AE3FCD9A1E353EE80072B19C /* DieView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD991E353EE80072B19C /* DieView.m */; };
+		AE3FCD9D1E36644C0072B19C /* Bot.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD9C1E36644C0072B19C /* Bot.m */; };
+		AE3FCDA01E3695F80072B19C /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCD9F1E3695F80072B19C /* GraphViewController.m */; };
+		AE3FCDA41E36961B0072B19C /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCDA31E36961B0072B19C /* GraphView.m */; };
+		AE3FCDA71E36A2260072B19C /* HistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3FCDA61E36A2260072B19C /* HistoryView.m */; };
+		AE9AF33C1E39C4B100760913 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9AF33B1E39C4B100760913 /* OptionsViewController.m */; };
+		AE9AF33F1E39D4D800760913 /* RectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9AF33E1E39D4D800760913 /* RectangleView.m */; };
+		AE9AF3421E3A1B7A00760913 /* RectangleSelected.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9AF3411E3A1B7A00760913 /* RectangleSelected.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008AF0A454F944CF1DF24A4E /* Pods_backgamon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_backgamon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2A90DCCD5CF7F49C54C1C1 /* Pods-backgamon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backgamon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-backgamon/Pods-backgamon.debug.xcconfig"; sourceTree = "<group>"; };
 		AE3FCD4D1E326DFF0072B19C /* backgamon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backgamon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3FCD511E326DFF0072B19C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE3FCD531E326DFF0072B19C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +68,35 @@
 		AE3FCD711E326E000072B19C /* backgamonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backgamonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3FCD751E326E000072B19C /* backgamonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = backgamonUITests.m; sourceTree = "<group>"; };
 		AE3FCD771E326E000072B19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3FCD831E32714A0072B19C /* BackgamonNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgamonNavigationController.h; sourceTree = "<group>"; };
+		AE3FCD841E32714A0072B19C /* BackgamonNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgamonNavigationController.m; sourceTree = "<group>"; };
+		AE3FCD891E32874A0072B19C /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		AE3FCD8A1E32874A0072B19C /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		AE3FCD8C1E3287770072B19C /* TraingleSelected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraingleSelected.h; sourceTree = "<group>"; };
+		AE3FCD8D1E3287770072B19C /* TraingleSelected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraingleSelected.m; sourceTree = "<group>"; };
+		AE3FCD8F1E32C59A0072B19C /* CircleSelecteed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSelecteed.h; sourceTree = "<group>"; };
+		AE3FCD901E32C59A0072B19C /* CircleSelecteed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSelecteed.m; sourceTree = "<group>"; };
+		AE3FCD921E32C5BB0072B19C /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		AE3FCD931E32C5BB0072B19C /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		AE3FCD951E350F510072B19C /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		AE3FCD961E350F510072B19C /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		AE3FCD981E353EE80072B19C /* DieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieView.h; sourceTree = "<group>"; };
+		AE3FCD991E353EE80072B19C /* DieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieView.m; sourceTree = "<group>"; };
+		AE3FCD9B1E36644C0072B19C /* Bot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bot.h; sourceTree = "<group>"; };
+		AE3FCD9C1E36644C0072B19C /* Bot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bot.m; sourceTree = "<group>"; };
+		AE3FCD9E1E3695F80072B19C /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		AE3FCD9F1E3695F80072B19C /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		AE3FCDA21E36961B0072B19C /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		AE3FCDA31E36961B0072B19C /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		AE3FCDA51E36A2260072B19C /* HistoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryView.h; sourceTree = "<group>"; };
+		AE3FCDA61E36A2260072B19C /* HistoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryView.m; sourceTree = "<group>"; };
+		AE9AF33A1E39C4B100760913 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		AE9AF33B1E39C4B100760913 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		AE9AF33D1E39D4D800760913 /* RectangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleView.h; sourceTree = "<group>"; };
+		AE9AF33E1E39D4D800760913 /* RectangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleView.m; sourceTree = "<group>"; };
+		AE9AF3401E3A1B7A00760913 /* RectangleSelected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RectangleSelected.h; path = ../RectangleSelected.h; sourceTree = "<group>"; };
+		AE9AF3411E3A1B7A00760913 /* RectangleSelected.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RectangleSelected.m; path = ../RectangleSelected.m; sourceTree = "<group>"; };
+		E9417717EC8A24BD884F1F02 /* Pods-backgamon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-backgamon.release.xcconfig"; path = "Pods/Target Support Files/Pods-backgamon/Pods-backgamon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C6F559814B424B669F2A22 /* Pods_backgamon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +125,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24577B6FAB584D0B82D41853 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA2A90DCCD5CF7F49C54C1C1 /* Pods-backgamon.debug.xcconfig */,
+				E9417717EC8A24BD884F1F02 /* Pods-backgamon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		475FAFF74650E8B047E6FFD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				008AF0A454F944CF1DF24A4E /* Pods_backgamon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE3FCD441E326DFF0072B19C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +149,8 @@
 				AE3FCD691E326E000072B19C /* backgamonTests */,
 				AE3FCD741E326E000072B19C /* backgamonUITests */,
 				AE3FCD4E1E326DFF0072B19C /* Products */,
+				24577B6FAB584D0B82D41853 /* Pods */,
+				475FAFF74650E8B047E6FFD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +171,39 @@
 				AE3FCD541E326DFF0072B19C /* AppDelegate.m */,
 				AE3FCD561E326DFF0072B19C /* ViewController.h */,
 				AE3FCD571E326DFF0072B19C /* ViewController.m */,
+				AE9AF33A1E39C4B100760913 /* OptionsViewController.h */,
+				AE9AF33B1E39C4B100760913 /* OptionsViewController.m */,
 				AE3FCD591E326DFF0072B19C /* Main.storyboard */,
 				AE3FCD5C1E326DFF0072B19C /* Assets.xcassets */,
 				AE3FCD5E1E326DFF0072B19C /* LaunchScreen.storyboard */,
 				AE3FCD611E326DFF0072B19C /* Info.plist */,
 				AE3FCD501E326DFF0072B19C /* Supporting Files */,
+				AE3FCD831E32714A0072B19C /* BackgamonNavigationController.h */,
+				AE3FCD841E32714A0072B19C /* BackgamonNavigationController.m */,
+				AE3FCD891E32874A0072B19C /* TriangleView.h */,
+				AE3FCD8A1E32874A0072B19C /* TriangleView.m */,
+				AE3FCD8C1E3287770072B19C /* TraingleSelected.h */,
+				AE3FCD8D1E3287770072B19C /* TraingleSelected.m */,
+				AE3FCD8F1E32C59A0072B19C /* CircleSelecteed.h */,
+				AE3FCD901E32C59A0072B19C /* CircleSelecteed.m */,
+				AE3FCD921E32C5BB0072B19C /* CircleView.h */,
+				AE3FCD931E32C5BB0072B19C /* CircleView.m */,
+				AE9AF33D1E39D4D800760913 /* RectangleView.h */,
+				AE9AF33E1E39D4D800760913 /* RectangleView.m */,
+				AE9AF3401E3A1B7A00760913 /* RectangleSelected.h */,
+				AE9AF3411E3A1B7A00760913 /* RectangleSelected.m */,
+				AE3FCD951E350F510072B19C /* Board.h */,
+				AE3FCD961E350F510072B19C /* Board.m */,
+				AE3FCD981E353EE80072B19C /* DieView.h */,
+				AE3FCD991E353EE80072B19C /* DieView.m */,
+				AE3FCD9B1E36644C0072B19C /* Bot.h */,
+				AE3FCD9C1E36644C0072B19C /* Bot.m */,
+				AE3FCD9E1E3695F80072B19C /* GraphViewController.h */,
+				AE3FCD9F1E3695F80072B19C /* GraphViewController.m */,
+				AE3FCDA21E36961B0072B19C /* GraphView.h */,
+				AE3FCDA31E36961B0072B19C /* GraphView.m */,
+				AE3FCDA51E36A2260072B19C /* HistoryView.h */,
+				AE3FCDA61E36A2260072B19C /* HistoryView.m */,
 			);
 			path = backgamon;
 			sourceTree = "<group>";
@@ -147,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE3FCD7A1E326E000072B19C /* Build configuration list for PBXNativeTarget "backgamon" */;
 			buildPhases = (
+				7B250C23923F27A3A1037470 /* [CP] Check Pods Manifest.lock */,
 				AE3FCD491E326DFF0072B19C /* Sources */,
 				AE3FCD4A1E326DFF0072B19C /* Frameworks */,
 				AE3FCD4B1E326DFF0072B19C /* Resources */,
+				739E64D88B3030A1C5F7E9A2 /* [CP] Embed Pods Frameworks */,
+				B9EC831AF3AD99918C6B45B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +368,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		739E64D88B3030A1C5F7E9A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-backgamon/Pods-backgamon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B250C23923F27A3A1037470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EC831AF3AD99918C6B45B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-backgamon/Pods-backgamon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE3FCD491E326DFF0072B19C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE3FCD9D1E36644C0072B19C /* Bot.m in Sources */,
 				AE3FCD581E326DFF0072B19C /* ViewController.m in Sources */,
+				AE9AF33C1E39C4B100760913 /* OptionsViewController.m in Sources */,
+				AE3FCD911E32C59A0072B19C /* CircleSelecteed.m in Sources */,
+				AE3FCD851E32714A0072B19C /* BackgamonNavigationController.m in Sources */,
+				AE3FCD8E1E3287770072B19C /* TraingleSelected.m in Sources */,
+				AE3FCDA01E3695F80072B19C /* GraphViewController.m in Sources */,
+				AE3FCD941E32C5BB0072B19C /* CircleView.m in Sources */,
+				AE3FCDA71E36A2260072B19C /* HistoryView.m in Sources */,
+				AE3FCD8B1E32874A0072B19C /* TriangleView.m in Sources */,
+				AE9AF33F1E39D4D800760913 /* RectangleView.m in Sources */,
+				AE3FCD971E350F510072B19C /* Board.m in Sources */,
+				AE3FCD9A1E353EE80072B19C /* DieView.m in Sources */,
+				AE9AF3421E3A1B7A00760913 /* RectangleSelected.m in Sources */,
+				AE3FCDA41E36961B0072B19C /* GraphView.m in Sources */,
 				AE3FCD551E326DFF0072B19C /* AppDelegate.m in Sources */,
 				AE3FCD521E326DFF0072B19C /* main.m in Sources */,
 			);
@@ -425,6 +584,7 @@
 		};
 		AE3FCD7B1E326E000072B19C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA2A90DCCD5CF7F49C54C1C1 /* Pods-backgamon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J6B9MZ6PP4;
@@ -437,6 +597,7 @@
 		};
 		AE3FCD7C1E326E000072B19C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9417717EC8A24BD884F1F02 /* Pods-backgamon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J6B9MZ6PP4;
@@ -516,6 +677,7 @@
 				AE3FCD7C1E326E000072B19C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE3FCD7D1E326E000072B19C /* Build configuration list for PBXNativeTarget "backgamonTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +686,7 @@
 				AE3FCD7F1E326E000072B19C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE3FCD801E326E000072B19C /* Build configuration list for PBXNativeTarget "backgamonUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +695,7 @@
 				AE3FCD821E326E000072B19C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

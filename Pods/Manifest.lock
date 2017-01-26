@@ -1,0 +1,32 @@
+PODS:
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - Google-Mobile-Ads-SDK (7.15.0)
+  - MaxColor (0.1.0)
+  - MaxelerComponents (0.1.12):
+    - CocoaLumberjack (~> 2.3.0)
+    - Google-Mobile-Ads-SDK (~> 7.15.0)
+    - MaxColor
+    - SVGKit
+  - SVGKit (2.0.1):
+    - CocoaLumberjack (~> 2.x)
+
+DEPENDENCIES:
+  - MaxelerComponents
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  Google-Mobile-Ads-SDK: 75d41dfcf06f7666ab211573d212768b0f766c5d
+  MaxColor: ebc9aa481059e369626f20c137daa3010d44549d
+  MaxelerComponents: 11dceaaebd61cad6ed837116c17e02d1abce18c0
+  SVGKit: 63cb2b84d45958ad7e939dd0550de24ee97f0106
+
+PODFILE CHECKSUM: 86b640221073c2ee0093fb24044f9cfb4ef67a20
+
+COCOAPODS: 1.1.1
